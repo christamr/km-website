@@ -1,0 +1,347 @@
+body {
+	background-color: #ebeced;
+}
+
+.width-wrapper {
+	width: 80%; 
+	max-width: 1020px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h1 {
+	font-family: 'Droid Serif', serif;
+	font-size: 2em;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.border-bottom {
+	width: 125px;
+	border-top: 1px solid; 
+	margin-bottom: 85px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h2 {
+	font-family: 'Droid Serif', serif;
+	font-size: 1.5em;
+}
+
+p {
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 1.15em;
+	line-height: 1.75em;
+}
+
+.intro-subhead {
+	font-family: 'Droid Serif', serif;
+	font-size: 1.5em;
+	color: #222;
+	text-align: center;
+}
+
+.intro-head {
+	font-family: 'Droid Serif', serif;
+	font-size: 2.5em; 
+	text-align: center;
+	color: #ebeced;
+	line-height: 1.25em;
+	padding-bottom: 20px;
+}
+
+li {
+	text-decoration: none;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 1.15em;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+a.button-filled {
+	font-family: 'Droid Serif', serif;
+	font-size: 1.15em;
+	text-decoration: none;
+}
+
+header {
+	background: url("assets/kaleidoscope-bg.jpg") no-repeat;
+	background-size: cover; 
+	text-align: center;
+	padding-top: 85px;
+	padding-bottom: 35px;
+}
+
+header img {
+	padding-bottom: 85px;
+}
+
+header.border-bottom {
+	color: #222;
+}
+
+header.intro-subhead {
+	color: #222;
+}
+
+header.intro-head {
+	color: #ebeced;
+}
+
+.philosophy {
+	padding-top: 85px;
+	padding-bottom: 85px;
+	background: url("assets/computer-bg.png") no-repeat bottom left;
+}
+
+.philosophy h1 {
+	color: #ee458d;
+}
+
+.philosophy .border-bottom {
+	color: #ee458d;
+}
+
+.philosophy .twocolumn-1 {
+	width: 45%; 
+	margin-right: 85px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.philosophy aside {
+	font-family: 'Droid Serif', serif;
+	font-style: italic;
+	font-size: 1.75em;
+	line-height: 1.25em;
+	padding-bottom: 20px;
+	text-align: center;
+	padding: 40px;
+	color: #ebeced;
+	background-color: #ee458d;
+}
+
+.philosophy .twocolumn-2 {
+	width: 45%;
+	display: inline-block;
+	float-right;
+}
+
+.twocolumn-2 p {
+	padding-bottom: 20px;
+}
+
+.services {
+	padding-top: 85px;
+	padding-bottom: 85px;
+	background-color: #4f5050;
+}
+
+.services h1 {
+	color: #b9dd2a;
+}
+
+.services .border-bottom {
+	color: #b9dd2a;
+}
+
+.services div.threecolumn-1 {
+	width: 25%;
+	display: inline-block;
+	background-color: #222;
+	padding: 30px;
+	vertical-align: top;
+	margin-right: 30px;
+}
+
+.services div.threecolumn-2 {
+	width: 25%;
+	display: inline-block;
+	background-color: #222;
+	padding: 30px;
+	vertical-align: top;
+	margin-right: 30px;
+}
+
+.services div.threecolumn-3 {
+	width: 25%;
+	display: inline-block;
+	background-color: #222;
+	padding: 30px;
+	vertical-align: top;
+}
+
+.services h2 {
+	color: #b9dd2a;
+	padding-bottom: 25px;
+}
+
+.services li {
+	color: #ebeced;
+	border-top: 1px solid #4f5050;
+}
+
+.services li.list-border-bottom {
+	border-bottom: 1px solid #4f5050;
+}
+
+.contact {
+	padding-top: 85px;
+	padding-bottom: 85px;
+	background: url("assets/christa-bg.png") no-repeat bottom right;
+	text-align: center;
+}
+
+.contact .intro-subhead {
+	color: #222;
+}
+
+.contact .intro-head {
+	color: #ef4323;
+}
+
+.contact .border-bottom {
+	color: #222;
+}
+
+.contact a.button-filled {
+	background-color: #ef4323;
+	color: #ebeced;
+	padding: 25px 45px 25px 45px;
+	box-shadow: 1px 1px 1px #888888;
+}
+
+.contact a.button-filled:visited {
+	background-color: #ef4323;
+	color: #ebeced;
+	padding: 25px 45px 25px 45px;
+	box-shadow: 1px 1px 1px #888888;
+}
+
+.contact a.button-filled:hover {
+	background-color: #ed5e43;
+	color: #ebeced;
+	padding: 25px 45px 25px 45px;
+	box-shadow: 1px 1px 1px #888888;
+	cursor: pointer;
+}
+
+footer {
+	background-color: #222;
+	padding: 25px 0 25px 25px;
+}
+
+/* RESPONSIVE ELEMENTS */
+
+@media screen and (max-width: 1245px) {
+
+	.services div.threecolumn-1 {
+		width: 23%;
+		display: inline-block;
+		background-color: #222;
+		padding: 30px;
+		vertical-align: top;
+		margin-right: 30px;
+	}
+
+	.services div.threecolumn-2 {
+		width: 23%;
+		display: inline-block;
+		background-color: #222;
+		padding: 30px;
+		vertical-align: top;
+		margin-right: 30px;
+	}
+
+	.services div.threecolumn-3 {
+		width: 23%;
+		display: inline-block;
+		background-color: #222;
+		padding: 30px;
+		vertical-align: top;
+	}	
+}
+
+@media screen and (max-width: 1115px) {
+	.philosophy .twocolumn-1 {
+		width: 40%; 
+		margin-right: 85px;
+	}
+
+	.philosophy .twocolumn-2 {
+		width: 40%;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	
+	header {
+		padding-top: 35px;
+		padding-bottom: 10px;
+	}
+
+	header .border-bottom {
+		padding-bottom: 35px;
+	}
+
+	.philosophy {
+		padding-top: 35px;
+		padding-bottom: 35px; 
+	}
+
+	.philosophy .border-bottom {
+		margin-bottom: 35px;
+	}
+
+	.philosophy .twocolumn-1 {
+		width: 100%; 
+		margin-bottom: 45px;
+	}
+
+	.philosophy .twocolumn-2 {
+		width: 100%;
+		text-align: center;
+	}
+
+	.services {
+		text-align: center;
+		padding-top: 35px;
+		padding-bottom: 35px;
+	}
+
+	.services .border-bottom {
+		margin-bottom: 35px;
+	}
+
+	.services div.threecolumn-1 {
+		width: 80%;
+		margin: 0 0 45px 0;
+	}
+
+	.services div.threecolumn-2 {
+		width: 80%;
+		margin: 0 0 45px 0;
+	}
+
+	.services div.threecolumn-3 {
+		width: 80%;
+		margin: 0 0 45px 0;
+	}
+
+	.contact {
+		padding-top: 35px;
+		padding-bottom: 85px;
+		background: url("assets/christa-bg.png") no-repeat top right;
+		background-size: cover;
+		text-align: center;
+	}
+
+	footer {
+		text-align: center;
+	}
+}
+
+
+
+
